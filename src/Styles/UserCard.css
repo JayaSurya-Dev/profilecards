@@ -1,0 +1,50 @@
+.profile-slider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .profile-card {
+    width: 100%;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    background: #f4f4f4;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+  
+  .slider-controls {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  p {
+    font-size: 1em;
+    color: #666;
+  }
+  
